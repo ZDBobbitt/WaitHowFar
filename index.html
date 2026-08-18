@@ -830,8 +830,6 @@
 			answerPanelEl.classList.add("show");
 			answerMessageEl.className = `answer-message ${isFinalRound ? "win" : ""}`;
 			answerMessageEl.innerHTML = `
-				<strong>Difference: ${formatMiles(round.difference)}</strong>
-				<div>Percentage difference: ${formatPercent(round.percentDifference)}</div>
 				${isFinalRound ? `
 					<div class="final-summary">
 						<span>Average percentage difference</span>
